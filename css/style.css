@@ -1,0 +1,296 @@
+html,
+body,
+#container {
+	width: 100%;
+	height: 100%;
+}
+
+a {
+	color: white;
+}
+
+.head-con {
+	width: 100%;
+	height: 600px;
+	background: url(../img/a.jpg) no-repeat center 0px;
+}
+
+.head-con1 {
+	width: 100%;
+	height: 600px;
+	background: url(../img/dott.png) repeat 0px 0px;
+}
+
+.head-con2 {
+	width: 1100px;
+	margin: auto;
+	overflow: hidden;
+	padding: 75px 0;
+	box-sizing: border-box;
+}
+
+.head-left {
+	float: left;
+	width: 350px;
+	height: 450px;
+}
+
+.head-left img {
+	width: 100%;
+	height: 100%;
+	border: 5px solid #b3b3b2;
+	box-sizing: border-box;
+}
+
+.head-right {
+	float: left;
+	margin-left: 70px;
+	width: 680px;
+	height: 450px;
+}
+
+.head-right h2 {
+	font-size: 1.2em;
+	color: #000;
+	background: #F3E000;
+	display: inline-block;
+	padding: .5em 1.5em;
+	font-family: "新宋体";
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #FFF, 0 0 20px #FEFCC9, 10px -10px 30px #FEEC85, -20px -20px 40px #FFAE34;
+}
+
+.head-right h2:before {
+	width: 0;
+	height: 0;
+	position: absolute;
+	content: '';
+	bottom: -9px;
+	left: 12px;
+	border-style: solid;
+	border-width: 10px 10px 0 10px;
+	border-color: #F3E000 transparent transparent transparent;
+}
+
+.head-right h1 {
+	font-size: 2.5em;
+	color: #fff;
+	margin: 0.5em 0 0;
+	font-family: "楷体";
+	text-shadow: 0 0 10px #FFF, 0 0 20px #FFF, 0 0 30px #FFF, 0 0 40px #6AB5FF, 0 0 70px #6AB5FF, 0 0 80px #6AB5FF, 0 0 100px #6AB5FF, 0 0 150px #6AB5FF;
+}
+
+.head-right h4 {
+	font-size: 1em;
+	color: white;
+	margin-top: 0.8em;
+	letter-spacing: 6px;
+}
+
+ul.address {
+	margin-top: 2em;
+	border-top: 1px solid #AFAFAF;
+	padding-top: 0.5em;
+}
+
+ul.address li ul.address-text li {
+	display: inline-block;
+	font-size: 1.3em;
+	color: #fff;
+	margin-top: 1em;
+	font-weight: 100;
+	font-family: 'Overlock', cursive;
+}
+
+ul.address li ul.address-text li:nth-of-type(1) {
+	width: 20%;
+	font-weight: bold;
+}
+
+nav {
+	width: 100%;
+	height: 80px;
+	background: #008d8b;
+}
+
+nav ul {
+	display: flex;
+	margin: auto;
+	width: 1100px;
+	height: 100%;
+	position: relative;
+}
+
+nav ul li {
+	flex: 1;
+	display: inline-block;
+	color: #fff;
+	height: 100%;
+	text-align: center;
+	line-height: 80px;
+	font-size: 1.7em;
+	font-family: 'Overlock', cursive;
+}
+
+nav ul li:hover {
+	background: white;
+	color: #008d8b;
+	border-radius:10px 10px 0px 0px;
+}
+
+.body-con {
+	border-bottom: 1px solid black;
+	padding: 50px 0;
+	overflow: hidden;
+}
+
+.body-con:nth-child(2n) {
+	background: black;
+}
+
+.body-con .width8 {
+	width: 80%;
+	margin: auto;
+}
+
+.body-con .title {
+	font-size: 4em;
+	text-align: center;
+	color: #008B8B;
+	border-bottom: 4px double rgba(247, 197, 106, 0.35);
+	padding-bottom: 0.2em;
+	margin-bottom: 1em;
+}
+
+.about-left {
+	float: left;
+	width: 50%;
+	border: 3px double #008B8B;
+}
+
+.about-left p {
+	text-indent: 2em;
+	font-size: 1em;
+	color: #999;
+	line-height: 1.8em;
+}
+.about-left h4{
+	font-family: 'Overlock', cursive;
+	font-weight: 500;
+	font-size:25px ;
+	color: #03b1f0;
+}
+.about-right {
+	float: right;
+	width: 40%;
+}
+
+.about-right ul {
+	border: 3px double #008B8B;
+	padding: 1em 2em;
+}
+
+.about-right h5 {
+	font-size: 2em;
+	text-align: center;
+	color: #008B8B;
+}
+
+.about-right ul li {
+	display: block;
+	color: #999;
+	margin: 1em 0;
+	font-size: 1em;
+}
+
+.axis-con {
+	width: 100%;
+	display: flex;
+}
+
+.axis-left,
+.axis-right {
+	flex: 1;
+}
+
+.axis-line {
+	width: 5px;
+	background: wheat;
+	position: relative;
+}
+
+.axis-line span {
+	position: absolute;
+	top: -25px;
+	left: -10px;
+	width: 25px;
+	height: 25px;
+	background: wheat;
+	border-radius: 50%;
+}
+
+.experience-left,.experience-right,.education-left {
+	width: 100%;
+	height: 150px;
+	color: white;
+	position: relative;
+}
+.company,.university{
+	position: absolute;
+	word-break: break-all;
+	height: 50px;
+	top: 75px;
+	margin-top: -21px;
+}
+
+.education-left {
+	color: black;
+}
+
+.technique-con {
+	width: 90%;
+	display: flex;
+	margin: auto;
+}
+
+.technique-con-left,
+.technique-con-right {
+	flex: 1;
+}
+
+.technique-con-center {
+	width: 100px;
+}
+
+.technique-con-left h6,
+.technique-con-right h6 {
+	font-size: 1.1em;
+	color: #fff;
+	margin-bottom: 0.6em;
+}
+
+.technique-con-left h6 span,
+.technique-con-right h6 span {
+	float: right;
+	font-size: 0.9em;
+}
+
+.progress {
+	height: 10px;
+	margin-bottom: 2.2em;
+	background-color: #2F2C06;
+	border-radius: 4px;
+	overflow: hidden;
+}
+
+.progress-bar {
+	background-color: #766E04;
+	height: 10px;
+}
+
+.project-con {
+	height: 500px;
+	margin: auto;
+	border: 1px solid;
+}
