@@ -97,7 +97,7 @@ ul.address li ul.address-text li {
 	display: inline-block;
 	font-size: 1.3em;
 	color: #fff;
-	margin-top: 1em;
+	margin-top: 20px;
 	font-weight: 100;
 	font-family: 'Overlock', cursive;
 }
@@ -172,7 +172,6 @@ nav ul li:hover {
 	text-indent: 2em;
 	font-size: 1em;
 	color: #999;
-	line-height: 1.8em;
 }
 .about-left h4{
 	font-family: 'Overlock', cursive;
