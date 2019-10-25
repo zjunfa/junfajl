@@ -28,7 +28,6 @@ a {
 	padding: 75px 0;
 	box-sizing: border-box;
 }
-
 .head-left {
 	float: left;
 	width: 350px;
@@ -293,4 +292,15 @@ nav ul li:hover {
 	height: 500px;
 	margin: auto;
 	border: 1px solid;
+}
+@media (max-width: 1100px) {
+	.head-con2{
+		width:100%;
+	}
+	.head-right{
+		width: 500px
+	}
+	nav ul{
+		width:100%;
+	}
 }
